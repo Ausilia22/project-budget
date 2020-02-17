@@ -11,7 +11,7 @@ class UI {
     this.expenseForm = document.getElementById("expense-form");
     this.expenseInput = document.getElementById("expense-input");
     this.amountInput = document.getElementById("amount-input");
-    this.expenseList = document.getElementById("expense-icon");
+    this.expenseList = document.getElementById("expense-list");
     this.itemList = [];
     this.itemID = 0;
   }
@@ -156,7 +156,7 @@ class UI {
 function eventListeners() {
   const budgetForm = document.getElementById("budget-form");
   const expenseForm = document.getElementById("expense-form");
-  const expenseList = document.getElementById("expense-icon");
+  const expenseList = document.getElementById("expense-list");
 
   //new instance of UI class
   const ui = new UI();
